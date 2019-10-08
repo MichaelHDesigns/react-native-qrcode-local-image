@@ -8,4 +8,5 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "8.0"
   s.source         = { :git => 'https://github.com/BlueWallet/react-native-qrcode-local-image.git', :tag => "#{s.version}"}
   s.source_files = "ios", "ios/**/*.{h,m}"
-  s.dependency 'React'end
+  s.dependency 'React'
+end
